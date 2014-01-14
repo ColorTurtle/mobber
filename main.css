@@ -1,0 +1,137 @@
+body * {
+	vertical-align: top;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family:  'Nunito', sans-serif;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	font-weight: lighter;
+}
+
+.container {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.navbar {
+	background-image: url(old-raven.png); 
+	height: 60px;
+}
+
+.navbar ul {
+	list-style: none;
+	display: inline-block;
+	margin: 8px 0px;
+}
+
+.navbar a {
+	color: white;
+	text-shadow:black 0 2px;
+}
+
+.navbar li {
+	display: inline-block;
+	text-transform: uppercase;
+	line-height: 40px;
+	padding: 0px 20px;
+}
+
+.navitem {
+	width: 600px;
+	margin: 0px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+.navitem img {
+	display: inline-block;
+	width: 200px;
+}
+
+.profilelist {
+	display: inline-block;
+	color: white;
+	width: 200px;
+	float: right;
+}
+
+.profilelist img {
+	border-radius: 105px;
+	height: 50px;
+	display: inline-block;
+	margin-top: 5px;
+	box-shadow: 0 0 1em black;
+}
+
+.profilelist a {
+	display: inline-block;
+	padding: 15px 5px;
+}
+
+/** Begin Tagline **/
+.tagline {
+	background: rgb (255, 255, 255);
+	font-size: 30px;
+	height: 88px;
+	box-shadow: 2px 2px 3px #D8D8D8;
+	z-index: 10;
+	position: relative;
+	font-weight: lighter;
+}
+
+.tagline p {
+	color: rgb(50, 50, 50);
+	margin: 0px;
+	padding-top: 20px;
+}
+
+/** Begin Content-Top **/
+.content-top {
+	background: rgb(243, 241, 237);
+	height: 578px;
+	padding-top: 30px;
+}
+
+.content-top-rightbottom {
+	width: 622px;
+	height: 485px;
+	background: rgb(198, 195, 188);
+}
+
+.content-top-right {
+	background-image: url(mob-image.png);
+	background-repeat: no-repeat;
+	height: 400px;
+	color: white;
+	padding-top: 0px;
+}
+
+.img-banner {
+	background: rgba(17, 17, 17, 0.5);
+}
+
+.icon-clock:before { content: '\e800'; 
+} /* '' */
+
+.img-banner h2 {
+	margin: 0px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.img-banner p {
+	margin: 0px;
+	padding: 15px;
+	display: inline-block;
+	float: right;
+	font-size: 15px;
+}
