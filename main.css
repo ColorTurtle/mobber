@@ -171,6 +171,8 @@ blockquote {
 
 .mobbers {
 	display: inline-block;
+	background: rgb(198, 195, 188);
+	width: 75px;
 }
 
 .mobbers-needed {
