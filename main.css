@@ -17,6 +17,12 @@ h2 {
 	font-weight: lighter;
 }
 
+blockquote {
+	font-style: italic;
+	color: rgb(50, 50, 50); 
+	margin: 15px 40px;
+}
+
 .container {
 	width: 960px;
 	margin: 0px auto;
@@ -69,7 +75,7 @@ h2 {
 	height: 50px;
 	display: inline-block;
 	margin-top: 5px;
-	box-shadow: 0 0 1em black;
+	box-shadow: 0 0 .5em black;
 }
 
 .profilelist a {
@@ -101,13 +107,18 @@ h2 {
 	padding-top: 30px;
 }
 
+.content-top-right {
+	width: 622px;
+	height: 550px;
+	display: inline-block;
+}
 .content-top-rightbottom {
 	width: 622px;
 	height: 485px;
 	background: rgb(198, 195, 188);
 }
 
-.content-top-right {
+.content-top-right-main {
 	background-image: url(mob-image.png);
 	background-repeat: no-repeat;
 	height: 400px;
@@ -119,19 +130,49 @@ h2 {
 	background: rgba(17, 17, 17, 0.5);
 }
 
-.icon-clock:before { content: '\e800'; 
-} /* '' */
-
 .img-banner h2 {
 	margin: 0px;
 	padding: 10px;
+}
+
+.banner-title {
+	width: 184px;
 	display: inline-block;
 }
 
-.img-banner p {
+.banner-time{
+	display: inline-block;
+	width: 250px;
+	float: right;
+}
+
+.banner-time img {
+	display: inline-block;
+}
+
+.banner-time p {
 	margin: 0px;
 	padding: 15px;
 	display: inline-block;
-	float: right;
 	font-size: 15px;
+}
+
+.fineprint {
+	color: gray;
+	font-size: 12px;
+	font-weight: lighter;
+	padding: 0px 20px;
+}
+
+.content-top-left {
+	display: inline-block;
+	width: 315px;
+}
+
+.mobbers {
+	display: inline-block;
+}
+
+.mobbers-needed {
+	display: inline-block;
 }
