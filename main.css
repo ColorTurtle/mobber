@@ -119,38 +119,48 @@ blockquote {
 }
 
 /** Begin Content-Top **/
+
 .content-priority {
 	background: rgb(243, 241, 237);
 	height: 578px;
 	padding-top: 30px;
 }
 
-.content-top-right {
+/*Begin Left Content*/
+
+.content-top-left {
 	width: 620px;
 	height: 550px;
 	display: inline-block;
 }
-.content-top-rightbottom {
-	width: 622px;
+.content-top-leftbottom {
+	width: 620px;
 	height: 485px;
-	background: rgb(198, 195, 188);
+	background: rgb(212, 208, 201);
 }
 
-.content-top-right-main {
-	background-image: url(mob-image.png);
-	background-repeat: no-repeat;
+.content-top-left-main {
+	background: url(mob-image.png) center center;
 	height: 400px;
+	width: 620px;
 	color: white;
 	padding-top: 0px;
 }
 
+.concert img {
+	width: 620px;
+	position: relative;
+	top: 20px;
+}
 .img-banner {
 	background: rgba(17, 17, 17, 0.5);
+	position: relative;
+	height: 57px;
 }
 
 .img-banner h2 {
 	margin: 0px;
-	padding: 10px;
+	padding: 10px 10px 10px 20px;
 }
 
 .banner-title {
@@ -158,14 +168,15 @@ blockquote {
 	display: inline-block;
 }
 
-.banner-time{
+.banner-time {
 	display: inline-block;
-	width: 250px;
-	float: right;
+	position: absolute;
+	right: 0;
 }
 
 .banner-time img {
 	display: inline-block;
+	margin-top: 10px;
 }
 
 .banner-time p {
@@ -182,29 +193,85 @@ blockquote {
 	padding: 0px 20px;
 }
 
-.content-top-left {
+/*Begin Right Content*/
+.content-top-right {
 	display: inline-block;
 	width: 320px;
+	margin-left: 16px;
 }
 
+.stats {
+	margin-bottom: 11px;
+}
 .mobbers {
 	display: inline-block;
-	background: rgb(198, 195, 188);
-	width: 138px;
-	height: 160px;
-	margin-left: 19px;
+	background: rgb(212, 208, 201);
+	width: 140px;
+	height: 140px;
+	margin-right: 16px;
 	color: white;
-	font-size: 70px;
-	line-height: 0px;
 	text-align: center;
-	text-shadow:gray 0 2px;
+	text-shadow:rgb(167, 159, 147) 0 2px;
+	position: relative;
 }
 
-.stats-label {
+.stat {
+	padding-left: 20px;
+}
+
+.mobbers span {
+	font-size: 70px;
+	line-height: 0px;
+	margin: 57px auto 0px auto;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	text-align: center;
+	display: block;
+}
+
+p.stats-label {
 	background: rgb(167, 159, 147);
 	font-size: 14px;
 	color: rgb(50, 50, 50);
-	text-shadow:white 0 1px;
+	text-shadow:rgb(212, 208, 201) 0 1px;
 	font-weight: normal;
 	line-height: 35px;
+	position: absolute;
+	top: 116px;
+	padding: 0px;
+	width: 140px;
+	height: 35px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+.button-gold {
+	text-align: center;
+	border: 1px solid rgb(195, 143, 38);
+	width: 300px;
+	height: 60px;
+	color: white;
+	font-size: 22px;
+	line-height: 15px;
+	letter-spacing: 1px;
+	border-radius: 6px;
+	margin: 35px 0px 0px 0px;
+	text-shadow: 0 1px 1px rgb(195, 143, 38);
+	box-shadow: inset 0 1px 1px #fff,
+										0 1px 3px gray;
+	background: #fcd833; /* Old browsers */
+background: -moz-linear-gradient(top, #fcd833 0%, #fca52e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcd833), color-stop(100%,#fca52e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fcd833 0%,#fca52e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fcd833 0%,#fca52e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fcd833 0%,#fca52e 100%); /* IE10+ */
+background: linear-gradient(to bottom, #fcd833 0%,#fca52e 100%); /* W3C */
+}
+
+.reward {
+	width: 280px;
+	border: 1px solid black;
+	border-radius: 6px;
+	margin: -20px 7px 0px 10px;
 }
