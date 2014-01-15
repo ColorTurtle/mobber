@@ -24,7 +24,7 @@ blockquote {
 }
 
 .container {
-	width: 960px;
+	width: 945px;
 	margin: 0px auto;
 }
 
@@ -108,7 +108,7 @@ blockquote {
 }
 
 .content-top-right {
-	width: 622px;
+	width: 620px;
 	height: 550px;
 	display: inline-block;
 }
@@ -166,15 +166,27 @@ blockquote {
 
 .content-top-left {
 	display: inline-block;
-	width: 315px;
+	width: 320px;
 }
 
 .mobbers {
 	display: inline-block;
 	background: rgb(198, 195, 188);
-	width: 75px;
+	width: 138px;
+	height: 160px;
+	margin-left: 19px;
+	color: white;
+	font-size: 70px;
+	line-height: 0px;
+	text-align: center;
+	text-shadow:gray 0 2px;
 }
 
-.mobbers-needed {
-	display: inline-block;
+.stats-label {
+	background: rgb(167, 159, 147);
+	font-size: 14px;
+	color: rgb(50, 50, 50);
+	text-shadow:white 0 1px;
+	font-weight: normal;
+	line-height: 35px;
 }
