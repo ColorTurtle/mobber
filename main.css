@@ -8,6 +8,7 @@ body, html {
 	margin: 0;
 	font-family: 'Didact Gothic', sans-serif;
 	font-weight: lighter;
+	color: rgb(65, 65, 65);
 }
 
 a {
@@ -421,7 +422,7 @@ p.stats-label {
 
 .specials {
 	height: 285px;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid rgb(167, 159, 147);
 }
 
 .specials span {
@@ -438,9 +439,14 @@ p.stats-label {
 	padding: 0px;
 }
 
+.time time {
+	font-size: 13px;
+	line-height: 24px;
+}
+
 .special-offer .time {
 	display: inline-block;
-	padding-left: 30px;
+	padding-left: 43px;
 }
 
 .specials .time span {
@@ -453,10 +459,53 @@ p.stats-label {
 	display: inline-block;
 }
 
+/*Upcoming Info Styles*/
+.upcoming-info {
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+
 .upcoming-mob {
 	display: inline-block;
 }
 
+.upcoming-mob th {
+	font-weight: bolder;
+	text-align: left;
+	color: black;
+}
 .start-mob {
 	display: inline-block;
+	background: gray;
 }
+
+.upcoming-table > tr:first-child td {
+	border-bottom: 1px solid gray;
+}
+
+.upcoming-table td {
+	text-align: right;
+	padding: 0 0 10px 60px;
+}
+
+.upcoming-table .date {
+	color: rgb(167, 159, 147);
+}
+
+.upcoming-table > caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 20px;
+  margin: 0px 0px 25px 0px;
+}
+
+tr.border-bottom td {
+	border-bottom: 1px solid rgb(167, 159, 147);
+}
+
+tr.border-bottom th {
+	border-bottom: 1px solid rgb(167, 159, 147);
+}
+
+
