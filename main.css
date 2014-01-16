@@ -648,7 +648,7 @@ tr.border-bottom td {
 
 .footer .fineprint {
 	color: rgb(214, 209, 209);
-	margin: 8px 0 18px 0;
+	margin: 8px 0 15px 0;
 }
 
 .footer-info {
@@ -657,7 +657,7 @@ tr.border-bottom td {
 }
 
 .footer-info h3 {
-	margin-bottom: 7px;
+	margin-bottom: 9px;
 	color: white;
 	font-size: 18px;
 }
@@ -692,7 +692,7 @@ tr.border-bottom td {
 	width: 210px;
 	height: 42px;
 	border-radius: 5px;
-	margin-bottom: 20px;
+	margin: 20px 0;
 }
 
 input {
@@ -711,7 +711,7 @@ input {
 .footer-info .right {
 	width: 240px;
 	border-bottom: 1px solid rgb(62, 60, 60);
-	padding-bottom: 25px;
+	padding-bottom: 21px;
 	margin: 0 0 5px 70px;
 }
 
@@ -746,4 +746,5 @@ input {
 
 .copyright {
 	margin: 0 0 5px 70px;
+	font-size: 15px;
 }
