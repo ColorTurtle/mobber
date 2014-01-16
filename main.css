@@ -122,8 +122,9 @@ blockquote {
 
 .content-priority {
 	background: rgb(243, 241, 237);
-	height: 578px;
+	height: 549px;
 	padding-top: 30px;
+	border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 /*Begin Left Content*/
@@ -289,6 +290,7 @@ p.stats-label {
 .reward-copy {
 	display: inline-block;
 	padding-top: 5px;
+	color: rgb(65, 65, 65);
 }
 
 .reward-copy strong {
@@ -298,9 +300,163 @@ p.stats-label {
 
 .content-top-right .fineprint {
 	border-bottom: 1px solid rgb(170, 165, 158);
-	margin-bottom: 0px;
-	padding-bottom: 12px;
+	margin-bottom:13px;
+	padding-bottom: 17px;
 	width: 260px;
 
 }
 
+.social img {
+	display: inline-block;
+}
+
+/* ribbon style */
+
+.ribbon {
+	position: absolute;
+	top: 383px;
+	left: 0px;
+}
+
+.ribbon-wrapper {
+	position: relative;
+}
+
+.ribbon-front {
+	background-color: #F4CA31;	height: 30px;
+	width: 147px;
+	position: relative;
+	left:-7px;
+	z-index: 2;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	line-height: 30px;
+	text-shadow: 0 1px 1px rgb(195, 143, 38);
+}
+
+.ribbon-edge-topleft,
+.ribbon-edge-topright,
+.ribbon-edge-bottomleft,
+.ribbon-edge-bottomright {
+	position: absolute;
+	z-index: 1;
+	border-style:solid;
+	height:0px;
+	width:0px;
+}
+
+.ribbon-edge-topleft,
+.ribbon-edge-topright {
+}
+
+.ribbon-edge-bottomleft,
+.ribbon-edge-bottomright {
+	top: 30px;
+}
+
+.ribbon-edge-topleft,
+.ribbon-edge-bottomleft {
+	left: -7px;
+	border-color: transparent #F4CA31 transparent transparent;
+}
+
+.ribbon-edge-topleft {
+	top: 0px;
+	border-width: 0px 7px 0 0;
+}
+
+.ribbon-edge-bottomleft {
+	border-width: 0 7px 10px 0;
+}
+
+.ribbon-edge-topright,
+.ribbon-edge-bottomright {
+	left: 140px;
+	border-color: transparent transparent transparent #F4CA31;
+}
+
+.ribbon-edge-topright {
+	top: 0px;
+	border-width: 0px 0 0 0px;
+}
+
+.ribbon-edge-bottomright {
+	border-width: 0 0 0px 0px;
+}
+
+.ribbon-back-left {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	width: 0px;
+	height: 30px;
+		z-index: 0;
+}
+
+.ribbon-back-right {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 0px;
+	height: 30px;
+		z-index: 0;
+}
+
+.ribbon-back {
+	height: 19px;
+	width: 140px;
+	background: #C7934D;
+	position: absolute;
+	top: 395px;
+	left: 0px;
+}
+/*End Ribbon*/
+/*End Priority Content*/
+/*Begin Upcoming Content*/
+.upcoming-content {
+	background: white;
+	padding-top: 38px;
+}
+
+.specials {
+	height: 285px;
+	border-bottom: 1px solid gray;
+}
+
+.specials span {
+	display: block;
+}
+
+.special-item {
+	display: inline-block;
+	position: relative;
+	margin-right: 17px
+}
+
+.special-offer .fineprint {
+	padding: 0px;
+}
+
+.special-offer .time {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.specials .time span {
+	margin-top: 10px;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+.offer-info {
+	display: inline-block;
+}
+
+.upcoming-mob {
+	display: inline-block;
+}
+
+.start-mob {
+	display: inline-block;
+}
