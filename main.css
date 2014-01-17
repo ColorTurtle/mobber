@@ -21,8 +21,9 @@ h2 {
 
 blockquote {
 	font-style: italic;
-	color: rgb(50, 50, 50); 
-	margin: 15px 40px;
+	color: rgb(74, 73, 73); 
+	margin: 17px 40px 0px 24px;
+	font-size: 18px;
 }
 
 /* Utilities */
@@ -135,6 +136,12 @@ blockquote {
 	height: 550px;
 	display: inline-block;
 }
+
+.content-top-left .fineprint {
+	margin-top: 5px;
+	padding-left: 28px;
+}
+
 .content-top-leftbottom {
 	width: 620px;
 	height: 485px;
@@ -189,7 +196,7 @@ blockquote {
 }
 
 .fineprint {
-	color: rgb(167, 159, 147);
+	color: rgb(134, 127, 117);
 	font-size: 12px;
 	font-weight: lighter;
 	padding: 0px 20px;
@@ -421,6 +428,14 @@ p.stats-label {
 	left: 0px;
 }
 /*End Ribbon*/
+
+/*Start Arrow*/
+.arrow {
+	position: absolute;
+	top: 467px;
+	left: 7px;
+}
+
 /*End Priority Content*/
 /*Begin Upcoming Content*/
 .upcoming-content {
