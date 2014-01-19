@@ -61,6 +61,10 @@ blockquote {
 	letter-spacing: 1px;
 }
 
+.navbar li:hover {
+	text-shadow: 0 0px 3px rgb(163, 163, 29);
+}
+
 .navitem {
 	width: 600px;
 	margin: 0px;
@@ -94,6 +98,10 @@ blockquote {
 	display: inline-block;
 	padding: 18px 5px 0px;
 	text-shadow: 0 1px 1px #000;
+}
+
+.profilelist .user-name:hover {
+	text-shadow: 0 0px 3px rgb(163, 163, 29)
 }
 
 .user-menu-button {
@@ -662,6 +670,21 @@ tr.border-bottom td {
 	background: -o-linear-gradient(top, #e7e6ec 0%,#d0cdc7 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #e7e6ec 0%,#d0cdc7 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #e7e6ec 0%,#d0cdc7 100%); /* W3C */
+}
+
+.start-mob-btn:hover {
+	background: #e7e6ec; /* Old browsers */
+	background: -moz-linear-gradient(top, #d0cdc7 0%, #e7e6ec 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0cdc7), color-stop(100%,#e7e6ec)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #d0cdc7 0%,#e7e6ec 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #d0cdc7 0%,#e7e6ec 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #d0cdc7 0%,#e7e6ec 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #d0cdc7 0%,#e7e6ec 100%); /* W3C */
+}
+
+.start-mob-btn:active {
+	box-shadow: inset 0 1px 1px gray;
+	font-size: 21px;
 }
 
 .grayline {
