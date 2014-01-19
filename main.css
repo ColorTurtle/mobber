@@ -282,6 +282,48 @@ p.stats-label {
 	background: linear-gradient(to bottom, #fcd833 0%,#fca52e 100%); /* W3C */
 }
 
+.content-top-right .button-gold span {
+	display: block;
+	line-height: 59px;
+}
+
+/*Begin pull from transition homework*/
+.content-top-right .button-gold:hover {
+	border: 1px solid rgb(195, 143, 38);
+	color: white;
+	text-shadow: 0 1px 1px rgb(113, 86, 30);
+	box-shadow: inset 0px 1px 1px #fff,
+									  0 1px 3px gray;
+	background: #fcd833; /* Old browsers */
+	background: -moz-linear-gradient(top, #fca52e 0%, #fcd833 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fca52e), color-stop(100%,#fcd833)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fca52e 0%,#fcd833 100%); /* W3C */
+}
+
+.content-top-right .button-gold:active {
+	border: 1px solid rgb(195, 143, 38);
+	color: white;
+	font-size: 21px;
+	text-shadow: 0 1px 1px rgb(113, 86, 30);
+	box-shadow: inset 0px 1px 1px #7B7474;
+	background: #fcd833; /* Old browsers */
+	background: -moz-linear-gradient(top, #fca52e 0%, #fcd833 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fca52e), color-stop(100%,#fcd833)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fca52e 0%,#fcd833 100%); /* W3C */
+}
+
+.content-top-right .button-gold:active span {
+	text-shadow: ;
+	font-size: 21px;
+}
+/*End pull from transition homework*/
+
 .content-top-right .reward {
 	width: 280px;
 	height: 65px;
@@ -676,6 +718,7 @@ tr.border-bottom td {
 	color: white;
 	font-size: 18px;
 }
+
 .btn-group {
 	display: inline-block;
 	margin-right: 18px;
@@ -696,6 +739,18 @@ tr.border-bottom td {
 	box-shadow: inset 0 1px 0px #A69F9F;
 	background: rgb(99, 99, 98);
 }
+
+/*Begin pull from transition homework*/
+.btn-small:hover {
+	box-shadow: 0 0px 4px yellow;
+}
+
+.btn-small:active {
+	box-shadow: 0 1px 0px #fff;
+	font-size: 12px;
+}
+
+/*End pull from transition homework*/
 
 .footer-info .center {
 	width: 240px;
@@ -758,6 +813,38 @@ input {
 .footer-info .button-gold span {
 	line-height: 25px;
 }
+
+/*Begin pull from transition homework*/
+.footer-info .button-gold:hover {
+	border: 1px solid rgb(195, 143, 38);
+	color: white;
+	text-shadow: 0 1px 1px rgb(113, 86, 30);
+	box-shadow: inset 0px 1px 1px #fff,
+									  0 1px 3px rgb(50, 48, 48);
+	background: #fcd833; /* Old browsers */
+	background: -moz-linear-gradient(top, #fca52e 0%, #fcd833 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fca52e), color-stop(100%,#fcd833)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fca52e 0%,#fcd833 100%); /* W3C */
+}
+
+.footer-info .button-gold:active {
+	border: 1px solid rgb(195, 143, 38);
+	color: white;
+	font-size: 16px;
+	text-shadow: 0 1px 1px rgb(113, 86, 30);
+	box-shadow: inset 0px 2px 1px #846C15;
+	background: #fcd833; /* Old browsers */
+	background: -moz-linear-gradient(top, #fca52e 0%, #fcd833 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fca52e), color-stop(100%,#fcd833)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fca52e 0%,#fcd833 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fca52e 0%,#fcd833 100%); /* W3C */
+}
+/*End pull from transition homework*/
 
 .copyright {
 	margin: 0 0 5px 70px;
